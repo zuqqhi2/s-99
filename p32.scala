@@ -1,3 +1,4 @@
+@scala.annotation.tailrec
 def gcd(op1: Int, op2: Int): Int = if (op1 == 0 || op2 == 0) throw new IllegalArgumentException else if (op1 % op2 == 0) op2 else gcd(op2, op1 % op2)
 
 /*
