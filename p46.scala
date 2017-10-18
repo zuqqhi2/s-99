@@ -59,6 +59,7 @@ package logic {
   }
 }
 
+
 /*
 ### not ###
 true  => false
